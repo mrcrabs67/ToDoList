@@ -5,7 +5,4 @@ public class Task {
     String title;
     Status[] status = Status.values();
 
-    void Printval(){
-        System.out.println((id + " " + title + " " + status));
-    }
 }
